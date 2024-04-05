@@ -240,15 +240,21 @@ p {
     color: black; /* Set text color of p to black */
 }
 
+.cusReview-content{
+    display : flex;
+    flex-direction : column;
+    gap : 40px;
+    overflow : auto;
+    height : 500px;
+}
+
 .cusReviewBox1 {
     background-color: ghostwhite; /* Background color for the review box */
     border-radius: 10px; /* Rounded corners */
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(114, 150, 179, 0.15) 0px 2px 6px 2px; /* Box shadow for styling */
     padding: 20px; /* Padding inside the box */
-    margin-bottom: 150px; /* Spacing between review boxes */
-	margin-top:50px;
+ 
 	height: 120px;
-	overflow:auto;
 }
 
 .comments {
@@ -262,10 +268,8 @@ p {
     border-radius: 10px; /* Rounded corners */
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(114, 150, 179, 0.15) 0px 2px 6px 2px; /* Box shadow for styling */
     padding: 20px; /* Padding inside the box */
-    margin-bottom: 150px; /* Spacing between review boxes */
-	margin-top:50px;
+  
 	height: 120px;
-	overflow:auto;
 }
 
 .cusReviewBox3 {
@@ -273,8 +277,6 @@ p {
     border-radius: 10px; /* Rounded corners */
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(114, 150, 179, 0.15) 0px 2px 6px 2px; /* Box shadow for styling */
     padding: 20px; /* Padding inside the box */
-    margin-bottom: 150px; /* Spacing between review boxes */
-    margin-top: 50px;
     height: 120px;
 }
 .review-container {
