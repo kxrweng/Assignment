@@ -1,0 +1,284 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+	position:relative;
+	min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    margin:  auto;
+}	
+
+ /* Add transparency to make text readable */
+header {
+    background-color: rgba(35, 47, 62, 0.9); 
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-family: "Arial Black", sans-serif;
+    font-size: 32px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Navigation bar styling */
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+ /* Adjust the spacing from the right */
+nav ul {
+    margin-right: 20px; 
+}
+
+ /* Adjust the spacing between menu items */
+nav ul li {
+    display: inline;
+    margin-left: 20px; 
+}
+
+/* Remove margin from the first menu item */
+nav ul li:first-child {
+    margin-left: 0; 
+}
+
+
+.top-sales {
+    padding: 20px 0;
+}
+
+.top-sales .container {
+    width: 90%; 
+    margin: 0 auto;
+}
+
+.top-sales h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.top-sales-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* Adjust the width of each book card */
+.top-sales-row .book-card {
+    flex-basis: calc(50% - 10px); 
+}
+
+/* Adjust other styles for book cards as needed */
+.special-highlight {
+    padding: 40px 0;
+    background-color: #f5f5f5;
+    text-align: center; 
+}
+
+/* Add margin to separate the title from the books */
+.special-highlight h2 {
+    font-size: 24px;
+    margin-bottom: 20px; 
+}
+.book-images{
+justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 10%;
+margin-right: 10%;}
+
+.book-images img {
+    width: 100px; /* Adjust the size of the book images */
+    height: auto;
+    margin: 0 5px; /* Add equal margin to the left and right of each book image */
+}
+
+
+footer {
+    background-color: rgba(35, 47, 62, 0.9); /* Add transparency to make text readable */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+	bottom:0;
+	 position: fixed; /* Fixed position */
+    width: 100%; /* Full width */
+	}
+/* align the books next to "Best of March" */
+.special-highlight .book-images {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+.hidden {
+    display: none; /* Initially hide the footer */
+}
+
+
+.footer {
+    background-color: rgba(51, 51, 51, 0); /* Semi-transparent black background */
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.footer-column h3 {
+    font-size: 20px;
+    color: #000; /* Black color for headings */
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #000; /* Black color for links */
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.boxTop {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Spacing between profile and comments */
+}
+.profile {
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+.profile-img img {
+    width: 50px; /* Size of the profile picture */
+    height: 50px;
+    border-radius: 50%; /* Make the profile picture round */
+    margin-right: 10px; /* Spacing between profile picture and user name */
+}
+
+.user-name {
+    display: flex; /* Change to flex to make username and span aligned horizontally */
+    flex-direction: column; /* Stack the items vertically */
+}
+
+.user-name strong {
+	color: black;
+    font-weight: bold; /* Bold user name */
+	  margin-bottom: 5px
+}
+
+.user-name span {
+    color: #888; /* Light gray color for username */
+	margin-left: 5px;
+}
+
+.reviews {
+    color: #f39c12; /* Color for stars */
+	    display: flex; /* Align stars horizontally */
+	
+}
+
+.reviews .fas {
+    font-size: 16px; /* Adjust the size of the stars */
+    margin-left: 5px; /* Add spacing between stars */
+}
+
+h2 {
+    color: black; /* Set text color of h2 to black */
+}
+
+p {
+    color: black; /* Set text color of p to black */
+}
+
+.cusReviewBox1 {
+    background-color: ghostwhite; /* Background color for the review box */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(114, 150, 179, 0.15) 0px 2px 6px 2px; /* Box shadow for styling */
+    padding: 20px; /* Padding inside the box */
+    margin-bottom: 150px; /* Spacing between review boxes */
+	margin-top:50px;
+	height: 120px;
+	overflow:auto;
+}
+
+.comments {
+    color: #000; /* Color of the review text */
+    font-size: 16px; /* Font size of the review text */
+    line-height: 1.5; /* Line height for better readability */
+}
+
+.cusReviewBox2{
+    background-color: ghostwhite; /* Background color for the review box */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(114, 150, 179, 0.15) 0px 2px 6px 2px; /* Box shadow for styling */
+    padding: 20px; /* Padding inside the box */
+    margin-bottom: 150px; /* Spacing between review boxes */
+	margin-top:50px;
+	height: 120px;
+	overflow:auto;
+}
+
+.cusReviewBox3 {
+    background-color: ghostwhite; /* Background color for the review box */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(114, 150, 179, 0.15) 0px 2px 6px 2px; /* Box shadow for styling */
+    padding: 20px; /* Padding inside the box */
+    margin-bottom: 150px; /* Spacing between review boxes */
+    margin-top: 50px;
+    height: 120px;
+}
+.review-container {
+    max-height: 300px; /* Set maximum height for the container */
+    overflow: auto; /* Add scrollbars when content exceeds height */
+    padding: 10px; /* Optional: Add padding for better spacing */
+}
